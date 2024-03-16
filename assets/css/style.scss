@@ -1,0 +1,44 @@
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+body {
+  background-image: url('{{ site.baseurl }}/assets/images/core/cosmos.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: #000000;
+
+  p {
+    text-align: justify;
+  }
+
+  h1, h2 {
+    font-weight: 600;
+  }
+
+  @include media-query($on-palm) {
+    background-image: linear-gradient(#000000, #212f45);
+    font-size: 15px;
+
+    h1, h2, h3, .site-title {
+      font-size: 1.25em;
+    }
+  }
+}
+
+img {
+  border: 1px solid #bbbbbb;
+}
+
+.site-header, .site-footer {
+  border: 0;
+}
+
+.feed-subscribe {
+  display: none;
+}
