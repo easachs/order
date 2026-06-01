@@ -21,7 +21,7 @@
 title: Order of the Quantum Phantom
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  In the uncharted expanses of the universe, a pulsing signal resonates, calling to the chosen few.
+
 baseurl: "/order" # the subpath of your site, e.g. /blog
 url: "https://easachs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
